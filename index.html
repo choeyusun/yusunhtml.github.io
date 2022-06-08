@@ -1,0 +1,110 @@
+<html>
+<head>
+  <title>あなたの正体を突き止めます</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+</script>
+
+<div class="choose_box">
+      <!-- 質問一覧 -->
+      <div class="app-theme">
+        <p>あなたの正体を突き止めます(全5問)</p>
+      </div>
+      <!-- 質問1 -->
+      <div id="q_01" class="fit">
+        <p>質問1: あなたは…</p>
+        <ul>
+          <li><a class="btn" href="#q_02" data-value="a">音楽をしている</a></li>
+          <li><a class="btn" href="#q_02" data-value="b">スポーツをしている</a></li>
+        </ul>
+      </div>
+
+      <!-- 質問2 -->
+      <div id="q_02" style="display: none;">
+        <p>質問2:あなたは音楽の中でも…</p>
+        <ul>
+          <li><a class="btn" href="#q_03" data-value="a">ギターを弾く</a></li>
+          <li><a class="btn" href="#q_03" data-value="b">ピアノを弾く</a></li>
+        </ul>
+      </div>
+
+      <!-- 質問3 -->
+      <div id="q_03" style="display: none;">
+        <p>質問3:あなたは…</p>
+        <ul>
+          <li><a class="btn" href="#q_04" data-value="a">フィールドオブビューが好き</a></li>
+          <li><a class="btn" href="#q_04" data-value="b">aikoが好き</a></li>
+        </ul>
+      </div>
+
+      <!-- 質問4 -->
+      <div id="q_04" style="display: none;">
+        <p>質問4:あなたはお酒が…</p>
+        <ul>
+          <li><a class="btn" href="#q_05" data-value="a">好き</a></li>
+          <li><a class="btn" href="#q_05" data-value="b">嫌い</a></li>
+        </ul>
+      </div>
+
+      <!-- 質問5 -->
+      <div id="q_05" style="display: none;">
+        <p>質問5:家に帰って…</p>
+        <ul>
+          <li><a class="btn end" data-value="a">書きかけの曲を仕上る</a></li>
+          <li><a class="btn end" data-value="b">おいしいごはんを食べる</a></li>
+        </ul>
+      </div>
+
+
+
+<!-- ここから以下回答 -->
+  <!-- 回答の答え1 -->
+     <div id="answer_01" class="result" style="display: none;">
+      <div class="result_theme ">
+            <p>あなたは…</p>
+      </div>
+      <div class="result_type0 ">
+            <h4>ゆーすけさんタイプです！</h4>
+      </div>
+      <div class="result_discription0">
+        <h2>超絶ピアノ × ユーモア溢れる歌詞</h2>
+        <p>
+          あなたはゆーすけさんになる素質があります。
+          頑張って練習しましょう！
+        </p>
+      </div>
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+       </div>
+     </div>
+
+
+
+  <!-- 回答の答え2 -->
+     <div id="answer_02" style="display: none;">
+          <div class="result_theme ">
+            <p>あなたは…</p>
+      </div>
+      <div class="result_type1 ">
+            <h4>ゆすんタイプです！</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>病み × 闇</h2>
+        <p>
+          あなたはゆすんになる素質があります。
+          ひたすら家に引き込もりましょう！
+        </p>
+      </div>
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+       </div>
+     </div>
+
+ </div>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
